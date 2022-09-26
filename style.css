@@ -1,0 +1,139 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+.wrapper {
+    width: 1100px;
+    margin: auto; /*membuat wrapper di bagian tengah*/
+    position: relative; 
+}
+.logo a {
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: courier;
+    color: #5F6F94;
+}
+.menu {
+    float: right;
+}
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex; /*agar ber column column*/
+    line-height: 80px; /*agar posisi dari bagian atas dan bawah bisa rata di tengah dari div nya*/
+    top: 0;
+    background: #EEEEEE;
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+    background: #7FBCD2;
+    transition: 1s;
+    display: flex;
+    border-radius: 15px;
+}
+section{
+    margin: auto;
+    display: flex; /*flex membuat tampilan pada div berbentuk kolom*/
+    margin-bottom: 50px;
+}
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.kolom .deskripsi {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'comic sans-ms';
+    color: #5F6F94;
+}
+h2 {
+    font-family: 'comic san-ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #5F6F94;
+    width: 100%;
+    line-height: 50px;
+}
+a.tbl-pink {
+    background: #7FBCD2;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+a.tbl-pink:hover {
+    background: #0F3460;
+    text-decoration: none;
+    transition: 0.5s;
+}
+p{
+    margin: 5px 0px 5px 0px;
+    padding: 10px 0px 10px 0px;
+    font-weight: bold;
+}
+.title {
+    font-family: 'comic san-ms';
+    font-weight: 800;
+    font-size: 30px;
+    color: #5F6F94;
+}
+.rkeluarga {
+    background-image: url(rkeluarga.jpg);
+    background-size: cover;
+    background-position:  center;
+    width: 85%;
+    height: 500px;
+    margin: auto;
+}
+.rmakan {
+    background-image: url(rmakan.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 85%;
+    height: 500px;
+    margin: auto;
+}
+.rtidur {
+    background-image: url(rtidur.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 85%;
+    height: 500px;
+    margin: auto;
+}
+.rtamu{
+    background-image: url(rtamu.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 85%;
+    height: 500px;
+    margin: auto;
+}
